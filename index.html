@@ -64,6 +64,11 @@
             margin-bottom: 10px;
         }
 
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
         iframe {
             width: 100%;
             height: 400px;
@@ -102,7 +107,8 @@
 
         <section>
             <h2>Subscribe to Newsletter</h2>
-            <input type="text" placeholder="Enter your email">
+            <label for="email">Enter your email:</label>
+            <input type="text" id="email" placeholder="Enter your email">
             <button class="button" style="background-color: #4285f4;">Subscribe</button>
         </section>
     </main>
